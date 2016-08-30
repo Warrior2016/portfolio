@@ -1,0 +1,50 @@
+.m-navbar {
+  ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  li a {
+    display: block;
+    padding: 10px;
+    margin-left: 30px;
+  }
+  @media #{$brk-narrow} {
+    margin-top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    li a {
+      margin-left: 0;
+    }
+    }
+  }
+  @media #{$brk-narrow} {
+    background: $color-blue-dark;
+    z-index: 10000;
+  }
+  &__item {
+    background: $color-blue;
+    width: 200px;
+    margin-bottom: 5px;
+    a {
+      color: #fff;
+    }
+    @media #{$brk-narrow} {
+      background: none;
+      margin-bottom: 0;
+    }
+    }
+    &__item:hover {
+      background: $color-blue-light;
+      transition: .5s;
+    a {
+      color: #fff;
+    }
+    }
+    &__item--icon {
+      margin-right: 10px;
+    }
+}

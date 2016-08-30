@@ -1,0 +1,24 @@
+main {
+  margin: 5px auto;
+  h1 {
+    margin: 40px 0;
+  }
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+
+  @media #{$brk-narrow} {
+    margin: 0;
+  }
+}
+
+.reverse-margin {
+  margin-top: -15px;
+}
+
+
+#disqus_thread {
+  margin: 30px auto;
+}

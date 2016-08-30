@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Base Styles
+@import "application/base/colours";
+@import "application/base/break";
+@import "application/base/button";
+@import "application/base/typography";
+@import "application/base/layout";
+
+// Atoms
+@import "application/modules/atoms/social-icons";
+@import "application/modules/atoms/section";
+@import "application/modules/atoms/share-page";
+
+
+
+// Modules
+@import "application/modules/molecules/navbar";
+@import "application/modules/molecules/footer";
+@import "application/modules/molecules/gallery";
+
+// Organisms
+
+
+// Utilities
+@import "application/utilities/animations/animations";
+@import "application/utilities/utilities";
+

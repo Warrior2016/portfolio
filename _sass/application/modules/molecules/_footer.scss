@@ -1,0 +1,12 @@
+footer {
+  border-top: solid 3px $color-blue;
+  background: $color-blue-pale;
+  padding: 2%;
+  p {
+    line-height: 1.5;
+    opacity: .5;
+  }
+  ul {
+    margin: 20px;
+  }
+}

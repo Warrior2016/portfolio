@@ -1,0 +1,73 @@
+// Fonts
+
+$header-font: 'Chau Philomene One', sans-serif;
+$body-font: 'Josefin Sans', sans-serif;
+
+body {
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+ol,
+ul {
+  font-family: $body-font;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+p,
+a,
+ol,
+ul {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-blue;
+  transition: .5s;
+}
+
+a:hover {
+  color: $color-blue-light;
+}
+
+p,
+ul {
+  margin-bottom: 1.5rem;
+}
+
+.blue {
+  color: $color-blue;
+}
+
+blockquote {
+  border-left: solid 3px $color-blue;
+  padding-left: 10px;
+  background: lighten($color-blue-pale, 12%);
+}
+
+code {
+  border: solid .1px lighten($color-blue, 10%);
+  background: lighten($color-blue-pale, 10%);
+  color: $color-blue-dark;
+  padding: 2px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: .8em;
+  margin: 1px;
+}

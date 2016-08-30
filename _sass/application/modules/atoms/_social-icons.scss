@@ -1,0 +1,30 @@
+.a-social-icons {
+  ul {
+  display: flex;
+  justify-content: center;
+  }
+  a {
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    color: $color-blue;
+  }
+  a:hover {
+    opacity: .5;
+  }
+}
+
+.a-social-icons--white {
+  visibility: hidden;
+  margin-top: -60px;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    opacity: .5;
+  }
+  @media #{$brk-narrow} {
+    visibility: visible;
+    margin-top: 60px;
+  }
+}
